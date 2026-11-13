@@ -1,0 +1,4 @@
+The files of this repository written by The Phorepoc Authors (the recipes, package.conf, the workflows and the
+documentation) are licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+The firmware file this repository's package carries (ov5640_af.bin) is not ours and has no licence; see NOTICE.

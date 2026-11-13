@@ -1,0 +1,3 @@
+# The upstream file the recipes package (recipes/fetch.sh checks the hash; nothing binary is committed here).
+# name	file	sha512	url
+ov5640_af	ov5640_af.bin	4e0c050f483e2e6c4584874a70e90748f8adfb612c8eef38b877d69d8085dbe29f3ae36bb9c299dc5a3986223d82bd51d4eefcaa9709bcfbca5a249098cfb0f0	https://raw.githubusercontent.com/pmsourcedump/ov5640/61beaa4eb1ad87ad067cfbe123fbcd0a0cf01246/ov5640_af.bin
