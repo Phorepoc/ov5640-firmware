@@ -10,7 +10,7 @@ B=${PHOREPOC_BUILD:-$REPO/build}
 FW=$B/ov5640-firmware/ov5640_af.bin
 [ -f "$FW" ] || { echo "sis.sh: no $FW (run recipes/fetch.sh)"; exit 1; }
 mkdir -p "$B/sis"
-python3 "$PHOREPOC_PDK/tools/make_sis.py" --unsigned --version "${PHOREPOC_PACKAGE_VERSION:-1.0.0}" \
+python3 "$PHOREPOC_PDK/tools/make_sis.py" --data-only --uid 0xE7015C64 --unsigned --version "${PHOREPOC_PACKAGE_VERSION:-1.0.0}" \
   --name "OV5640 autofocus firmware" --vendor Phorepoc \
   --file "$FW=!:/resource/firmware/ov5640_af.bin" \
   --file "$REPO/NOTICE=!:/resource/firmware/ov5640_af.NOTICE.txt" \
