@@ -7,6 +7,6 @@ PinePhone Linux distributions do (postmarketOS packages it as license=proprietar
 from https://github.com/pmsourcedump/ov5640 at commit 61beaa4eb1ad87ad067cfbe123fbcd0a0cf01246 (SHA-512 in sources.lock).
 
 It is not part of Phorepoc and is not covered by any Phorepoc licence. If you are the copyright holder and want it
-removed, contact us through https://github.com/Phorepoc and we will remove it.
+removed, contact Phorepoc through https://github.com/Phorepoc, and Phorepoc will remove it.
 
 The camera works without this file, with fixed focus.
